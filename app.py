@@ -12,8 +12,8 @@ import os
 app = FastAPI()
 
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
-os.environ["OPENAI_API_KEY"] = "sk-proj-o2o8rll1qgIVPEA5QrkWT3BlbkFJ8ePXrPsAkeKiRZj9MRYg"
+os.environ["LANGCHAIN_API_KEY"] = ""
+os.environ["OPENAI_API_KEY"] = ""
 
 llm = ChatOpenAI(model="gpt-4")
 
